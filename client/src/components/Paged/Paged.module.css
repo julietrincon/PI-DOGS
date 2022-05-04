@@ -1,0 +1,39 @@
+.paged{
+    text-decoration: none;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.number{
+    list-style: none;
+    padding: 1px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.total{
+    display: inline-flex;
+    
+    margin: 2px;
+    border: 2px solid #F08080;
+    padding: .4em;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    list-style:none;
+    width: 10px;
+    height: 10px;
+    font-size: 12px;
+    align-items: center
+}
+
+.total:hover{
+    background-color: #fff;
+  border: none;
+  color: #220F00;
+  transition-delay: 0.2s;
+  transition: 0.8s;
+}
